@@ -12,12 +12,10 @@
 .relative{
     position: relative;
 }
-.active{
-    display: block;
-}
 .inline_block{
     display: inline-block;
 }
+
 /* /utility */
 
 /* navbar */
@@ -64,4 +62,8 @@
 .d_flex li{
     list-style: none;
 }
-/* /navbar */
+
+/* active che mostra i sottomenu */
+.active{
+    display: block;
+}
